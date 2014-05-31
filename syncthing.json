@@ -12,4 +12,8 @@
   },
   "extract_dir": ["syncthing-windows-amd64-v0.8.12", "syncthing-windows-386-v0.8.12"],
   "bin": "syncthing.exe"
+  "checkver": {
+    "url": "https://github.com/calmh/syncthing/releases/latest",
+    "re": '<h1 class="release-title"><a href="/calmh/syncthing/releases/tag/v([0-9\\.]+)">'
+  }
 }
