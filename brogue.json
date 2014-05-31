@@ -1,0 +1,11 @@
+{
+  "homepage": "https://sites.google.com/site/broguegame/",
+  "license": "GPL2",
+  "version": "1.7.3",
+  "url": [
+    "https://sites.google.com/site/broguegame/Brogue-windows-v1.7.3.zip",
+    "https://raw.githubusercontent.com/jamesgecko/scoop-packages/master/brogue.cmd"
+  ]
+  "extract_dir": "Brogue-windows-v1.7.3",
+  "bin": [ "brogue.cmd" ]
+}
