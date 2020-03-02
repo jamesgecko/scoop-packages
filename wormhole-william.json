@@ -1,0 +1,14 @@
+{
+  "description": "A magic wormhole implementation in Go",
+  "version": "1.0.2",
+  "homepage": "https://github.com/psanford/wormhole-william",
+  "url": "https://github.com/psanford/wormhole-william/releases/download/v1.0.2/wormhole-william-windows-386.exe",
+  "hash": "331056e275b175a5f2239ec31fd3b31dd931afa72780174e72ef87c2a3033f3c",
+  "bin": [ [ "wormhole-william-windows-386.exe", "wormhole-william" ] ],
+  "checkver": {
+    "github": "https://github.com/psanford/wormhole-william"
+  },
+  "autoupdate": {
+    "url": "https://github.com/psanford/wormhole-william/releases/download/v$version/wormhole-william-windows-386.exe"
+  }
+}
