@@ -1,9 +1,0 @@
-{
-  "homepage": "http://www.bay12games.com/dwarves/",
-  "version": "0.40.04",
-  "url": [
-    "http://www.bay12games.com/dwarves/df_40_04_win.zip",
-    "https://raw.githubusercontent.com/jamesgecko/scoop-packages/master/dwarf-fortress.cmd"
-  ],
-  "bin": [ "dwarf-fortress.cmd" ]
-}
