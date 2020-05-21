@@ -1,0 +1,15 @@
+{
+  "description": "A desktop chat client for group-centric services like Slack and Discord",
+  "version": "0.4.23",
+  "homepage": "https://cancel.fm/ripcord/",
+  "url": "https://cancel.fm/dl/Ripcord_Win_0.4.24.zip",
+  "bin": [ [ "Ripcord.exe", "ripcord" ] ],
+  "shortcuts": [ [ "Ripcord.exe", "Ripcord" ] ],
+  "checkver": {
+    "url": "https://cancel.fm/ripcord/",
+    "re": ""
+  },
+  "autoupdate": {
+    "url": "https://cancel.fm/dl/Ripcord_Win_$version.zip"
+  }
+}
